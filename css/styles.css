@@ -1,0 +1,56 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+hr {
+	width: 50%;
+    border-top: 1px solid #4B77BE;
+}
+
+a {
+    color: #4B77BE;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+span {
+    margin:5px;
+}
+
+.container {
+    margin-bottom:50px;
+}
+
+.navbar, .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a, #footer {
+    border-radius:0px;
+	background-color: #4B77BE;
+    border-color:#4B77BE;
+    color: white;
+}
+
+.projectpic {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.project {
+	width:70%;
+	margin:0 auto;
+}
+
+#my-pic{
+    height:500px;
+    width: auto;
+}
+
+#footer {
+    width:100%;
+    height:125px;
+}
+
+#footer a {
+    color:white;
+}

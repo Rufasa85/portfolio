@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Joe Rehfuss</title>
+		<link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+	<nav class="navbar navbar-default" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Joe Rehfuss</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#about">About</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#footer">Contact</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+	<div class="container">
+			<div id='about'>
+				<div class="row">
+					<h1 class = 'text-center'><strong>Joe Rehfuss</strong></h1>
+					<img src="assets/portfoliopic.jpg" class="img-responsive center-block" id='my-pic'
+				alt="Image">
+					<h2 class='text-center'>Full-Stack Web Developer</h2>
+					<p class='project'>I am a Seattle-based full-stack web developer with a passion for creating efficient, user-friendly applications.  I am excellent at problem solving, able to overcome challenges quickly, and thrive when working as part of a team.  In my free time, I enjoy board games and bouldering.</p>
+				</div>
+			</div>
+			<hr/>
+			<div id = 'portfolio'>
+				<h1 class = 'text-center'>Projects:</h1>
+				<div class= 'project' id='project1'>
+					<div class="row">
+						<h2 class = 'text-center'><strong>Animl</strong><span><a href="https://github.com/Rufasa85/Animl" target='_blank' title='source code'><i class = 'fa fa-github-square'></i></a></span></h2>
+						<a href='https://animl.herokuapp.com/' target="_blank"><img src="assets/animl.png" class="img-responsive projectpic pull-left" alt="Image"></a>
+						<p>Animl is a full-stack web application that allows users to search for any animal they wish to see and populates a map with all confirmed sightings of said animal in their county as reported by the USGS and other users.  Built on Express, and Node, with the Google Maps API and BISON API.</p>
+					</div>
+				</div>
+				<hr/>
+				<div class= 'project' id='project2'>
+					<div class="row">
+						<h2 class = 'text-center'><strong>Skavengr</strong><span><a href="https://github.com/WDI-gaming-data/skavengr" target='_blank' title='source code'><i class = 'fa fa-github-square'></i></a></span></h2>
+						<a href='https://skavengr.herokuapp.com/' target="_blank"><img src="assets/skavengr.png" class="img-responsive projectpic pull-right" alt="Image"></a>
+						<p>Skavengr is a full-stack web application for creating and managing scavenger hunts. Users, once they have signed up, can create a scavenger hunt. Our creation wizard allows users to drop different locations as pins on a map that dynamically updates with each location added, and add clues for players to find said spot. Once on a quest, a user's location will be constantly updated until they arrive at the quest location, at which point they will complete that objective. Quest creators are able to track the progress of all users participating in their quests. Once all locations for a quest are completed, users are redirected to a page showing them who finished first and where they rank amongst finishers.  Built on Ruby on Rails</p>
+					</div>
+				</div>
+				<hr/>
+				<div class= 'project' id='project3'>
+					<div class="row">
+						<h2 class = 'text-center'><strong>Skyletters</strong><span><a href="https://github.com/Rufasa85/skyletters" target='_blank' title='source code'><i class = 'fa fa-github-square'></i></a></span></h2></h2>
+						<a href = 'http://rufasa85.github.io/skyletters/' target='_blank'><img src="assets/skyletters.png" class="img-responsive projectpic pull-left" alt="Image"></a>
+						<p>
+							Skyletters was built in 3 hours as a hackathon project during my WDI course at General Assembly.  As users enter text in the input field, a letter cloud is populated in real time based on the frequency each letter apears in the text being typed.  Built on React.
+						</p>
+					</div>
+				</div>
+				<hr/>
+				<div class= 'project' id='project4'>
+					<div class="row">
+						<h2 class = 'text-center'><strong>OceanLand</strong><span><a href="https://github.com/Rufasa85/Oceanland" target='_blank' title='source code'><i class = 'fa fa-github-square'></i></a></span></h2>
+						<p>
+						<a href = 'http://oceanland.herokuapp.com/' target="_blank"><img src="assets/oceanland.png" class="img-responsive projectpic pull-right" alt="Image"></a>
+							OceanLand is a full-stack web application built entirely on React. Users can view photos of various fish, and, upon signing up, create, edit, or destroy fish.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id = 'footer'>
+		<h3 class = 'text-center'>&copy;Joe Rehfuss 2015</h3>
+		<h4 class = 'text-center'>
+			<a href="https://github.com/Rufasa85/" target="_blank">Github</a> | <a href="https://www.linkedin.com/in/joerehfuss" target = '_blank'>LinkedIn</a>
+		</h4>
+	</div>
+	</body>
+</html>
